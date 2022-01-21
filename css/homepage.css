@@ -1,0 +1,192 @@
+main .box2 {
+    display: flex;
+    position: absolute;
+    border-radius: 5px;
+    width: 700px;
+    margin: 600px 0 0 100px;
+    padding: 10px 10px 10px 10px;
+    background-color: #D7D9CE;
+}
+
+.actBox, .intBox {
+    margin: 0 0 0 0;
+    border-radius: 5px;
+    padding: 500px 335px 0 0;
+    background-color: #119DA4;
+}
+
+.actBorder, .intBorder {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -490px 0 0 10px;
+    padding: 470px 305px 0 0;
+}
+
+.actBox {
+    margin: 0 0 0 10px;
+}
+
+/* INTERESTS STYLES */
+main .intButton {
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #D7D9CE;
+    color: black;
+    font-weight: bold;
+    transition: all 500ms;
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+main .intButton:hover {
+    color: white;
+    background-color: #040404;
+    transform: scale(1.2);
+}
+
+/* ACTIVITIES STYLES */
+main .actButton {
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #D7D9CE;
+    color: black;
+    font-weight: bold;
+    transition: all 500ms;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+
+main .actButton:hover {
+    color: white;
+    background-color: #040404;
+    transform: scale(1.2);
+}
+
+/* PHOTO STYLES */
+main .photo {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 50px 0 0 150px;
+    border: 5px solid #D7D9CE;
+}
+
+main .photo img {
+    margin: -100px 0 0 -100px;
+    width: 250%;
+    height: 250%;  
+}
+
+/* ABOUT ME RANDOM STUFF */
+.box1 {
+    position: absolute;
+    border-radius: 5px;
+    margin: 70px 0 0 430px;
+    padding: 500px 370px 0 0;
+    background-color: #D7D9CE;
+}
+
+.box1Side {
+    position: absolute;
+    border-radius: 5px;
+    margin: 320px 0 0 100px;
+    padding: 250px 340px 0 0;
+    background-color: #D7D9CE;
+}
+
+.corner {
+    position: absolute;
+    border-radius: 100%;
+    margin: 313px 0 0 423px;
+    padding: 10px 10px 0 0;
+    background-color: #D7D9CE;
+}
+
+.corner2 {
+    position: absolute;
+    border-radius: 100%;
+    margin: 310px 0 0 420px;
+    padding: 10px 10px 0 0;
+    background-color: #0C7489;
+}
+
+.innerBox {
+    position: absolute;
+    border-radius: 5px;
+    margin: -490px 0 0 10px;
+    padding: 480px 350px 0 0;
+    background-color: #119DA4;
+}
+
+.innerBoxSide {
+    position: absolute;
+    border-radius: 5px;
+    margin: -240px 0 0 10px;
+    padding: 230px 340px 0 0;
+    background-color: #119DA4;
+}
+
+.innerCorner {
+    position: absolute;
+    border-radius: 100%;
+    margin: 0 0 0 10px;
+    padding: 10px 10px 0 0;
+    background-color: #119DA4;
+}
+
+.innerCorner2 {
+    position: absolute;
+    border-radius: 100%;
+    margin: 0 0 0 10px;
+    padding: 10px 10px 0 0;
+    background-color: #D7D9CE;
+}
+
+.innerBorder {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -470px 0 0 10px;
+    padding: 450px 320px 0 0;
+}
+
+.innerBorder2 {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -220px 0 0 10px;
+    padding: 200px 330px 0 0;
+}
+
+.borderCorner {
+    position: absolute;
+    border-radius: 100%;
+    margin: 12px 0 0 22px;
+    padding: 10px 10px 0 0;
+    background-color: #D7D9CE;
+}
+
+.borderCorner2 {
+    position: absolute;
+    border-radius: 100%;
+    margin: 10px 0 0 20px;
+    padding: 10px 10px 0 0;
+    background-color: #119DA4;
+}
+
+.coverUpLine {
+    position: absolute;
+    border-radius: 0;
+    margin: 340px 0 0 450px;
+    padding: 205px 10px 0 0;
+    background-color: #119DA4;
+}
+
+/* ABOUT ME TEXT */
+

@@ -1,0 +1,74 @@
+/* INTEREST ONE */
+.box1 {
+    position: absolute;
+    border-radius: 5px;
+    margin: 70px 0 0 100px;
+    padding: 340px 700px 0 0;
+    background-color: #D7D9CE;
+}
+
+.innerBox {
+    position: absolute;
+    border-radius: 5px;
+    margin: -330px 0 0 10px;
+    padding: 320px 680px 0 0;
+    background-color: #119DA4;
+}
+
+.innerBorder {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -310px 0 0 10px;
+    padding: 290px 650px 0 0;
+}
+
+/* INTEREST TWO */
+.box2 {
+    position: absolute;
+    border-radius: 5px;
+    margin: 440px 0 0 100px;
+    padding: 340px 700px 0 0;
+    background-color: #D7D9CE;
+}
+
+.innerBox2 {
+    position: absolute;
+    border-radius: 5px;
+    margin: -330px 0 0 10px;
+    padding: 320px 680px 0 0;
+    background-color: #119DA4;
+}
+
+.innerBorder2 {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -310px 0 0 10px;
+    padding: 290px 650px 0 0;
+}
+
+/* INTEREST THREE */
+.box3 {
+    position: absolute;
+    border-radius: 5px;
+    margin: 810px 0 0 100px;
+    padding: 340px 700px 0 0;
+    background-color: #D7D9CE;
+}
+
+.innerBox3 {
+    position: absolute;
+    border-radius: 5px;
+    margin: -330px 0 0 10px;
+    padding: 320px 680px 0 0;
+    background-color: #119DA4;
+}
+
+.innerBorder3 {
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid #D7D9CE;
+    margin: -310px 0 0 10px;
+    padding: 290px 650px 0 0;
+}
