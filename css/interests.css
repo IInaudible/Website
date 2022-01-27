@@ -1,74 +1,30 @@
-/* INTEREST ONE */
-.box1 {
-    position: absolute;
+/* PHOTOS */
+.picture {
     border-radius: 5px;
-    margin: 70px 0 0 100px;
-    padding: 340px 700px 0 0;
-    background-color: #D7D9CE;
+    padding: 5px;
 }
 
-.innerBox {
-    position: absolute;
-    border-radius: 5px;
-    margin: -330px 0 0 10px;
-    padding: 320px 680px 0 0;
-    background-color: #119DA4;
+.picture img {
+    transition: 500ms;
 }
 
-.innerBorder {
-    position: absolute;
-    border-radius: 5px;
-    border: 5px solid #D7D9CE;
-    margin: -310px 0 0 10px;
-    padding: 290px 650px 0 0;
+.picture img:hover {
+    transform: scale(1.1);
 }
 
-/* INTEREST TWO */
-.box2 {
-    position: absolute;
-    border-radius: 5px;
-    margin: 440px 0 0 100px;
-    padding: 340px 700px 0 0;
-    background-color: #D7D9CE;
+.grid2thirds {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
 }
 
-.innerBox2 {
-    position: absolute;
-    border-radius: 5px;
-    margin: -330px 0 0 10px;
-    padding: 320px 680px 0 0;
-    background-color: #119DA4;
+.grid2thirds img {
+    height: 100%;
+    object-fit: cover;
 }
 
-.innerBorder2 {
-    position: absolute;
-    border-radius: 5px;
-    border: 5px solid #D7D9CE;
-    margin: -310px 0 0 10px;
-    padding: 290px 650px 0 0;
+/* TEXT */
+main h2 {
+    text-decoration: underline;
 }
 
-/* INTEREST THREE */
-.box3 {
-    position: absolute;
-    border-radius: 5px;
-    margin: 810px 0 0 100px;
-    padding: 340px 700px 0 0;
-    background-color: #D7D9CE;
-}
-
-.innerBox3 {
-    position: absolute;
-    border-radius: 5px;
-    margin: -330px 0 0 10px;
-    padding: 320px 680px 0 0;
-    background-color: #119DA4;
-}
-
-.innerBorder3 {
-    position: absolute;
-    border-radius: 5px;
-    border: 5px solid #D7D9CE;
-    margin: -310px 0 0 10px;
-    padding: 290px 650px 0 0;
-}

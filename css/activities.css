@@ -1,23 +1,29 @@
-.box1 {
-    position: absolute;
-    border-radius: 5px;
-    margin: 70px 0 0 100px;
-    padding: 1080px 700px 0 0;
-    background-color: #D7D9CE;
+.gridRowsCol {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 40px;
 }
 
-.innerBox {
-    position: absolute;
-    border-radius: 5px;
-    margin: -1070px 0 0 10px;
-    padding: 1060px 680px 0 0;
-    background-color: #119DA4;
+h2 {
+    text-decoration: underline;
 }
 
-.innerBorder {
-    position: absolute;
+.picture {
     border-radius: 5px;
-    border: 5px solid #D7D9CE;
-    margin: -1050px 0 0 10px;
-    padding: 1030px 650px 0 0;
+    padding: 5px;
+}
+
+.picture img {
+    height: 100%;
+    object-fit: cover;
+    transition: 500ms;
+}
+
+.picture img:hover {
+    transform: scale(1.1);
+}
+
+#pic1 {
+    grid-column: 2;
 }

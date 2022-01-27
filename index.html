@@ -8,12 +8,13 @@
 
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/global.css">
+    <script src="https://kit.fontawesome.com/f5123bc097.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
     
-    <nav>
+    <nav class="viridian-green">
         <div></div>
         <div></div>
         <div>
@@ -28,54 +29,83 @@
         </div>
     </nav>
 
-    <main>
-        
-        <div class="aboutMe">
-           <div class="box1">
-                <div class="innerBox">
-                    <div class="innerBorder"></div>
+    <main class="transparent-bg">
+        <!--TOPBOX-->
+        <div class="grid3">
+                <!--PHOTO-->
+                <div id="photo">
+                    <img src="images/me.jpeg" alt="photo">
                 </div>
-           </div>
-           <div class="box1Side">
-                <div class="innerBoxSide">
-                    <div class="invisibleBorder">
-                        <div class="innerBorder2"></div>
+                <!--TEXTBOXES-->
+                <div id="box1" class="box viridian-green">
+                    <div>
+                        <h2 class="text-light">Welcome!</h2>
+                        <p class="text-light">
+                            This website is designed to share more about my self with users and provide
+                            information on some fun activities I like to do and also share some of my interests. 
+                        </p>
+                        <p class="text-light">
+                            Click on the buttons below or use the navigation bar to view my interests and activities.
+                        </p>
                     </div>
                 </div>
-           </div>
-           <div class="coverUpLine"></div>
-            <div class="corner">
-                <div class="innerCorner"></div>
-                <div class="borderCorner"></div>
-            </div>
-            <div class="corner2">
-                <div class="innerCorner2"></div>
-                <div class="borderCorner2"></div>
-            </div>
-        </div>
 
-        <div class="box2">
+                <div id="box2" class="box viridian-green">
+                    <div>
+                        <h2 class="text-light">Little Bit About Me</h2>
+                        <p class="text-light">
+                            Hello! My name is Michael Berish and I'm currently 18 years old while making this website.
+                            I was born in Seattle and grew up in the city of Shoreline. The dog I'm holding above is Bear,
+                            he is a husky malamute mix and is much bigger now than when that photo was taken.
+                        </p>
+                    </div>
+                </div>
 
-            <!-- BOXES -->
-            <div class="intBox">
-                <div class="intBorder"></div>
-                <a href="interests.html"><h1 class="intButton">Interests</h1></a>
-            </div>
+            <!--BUTTONBOXES-->
+            
+                <div id="interests-button" class="box viridian-green">
+                    <div class="">
+                        <p class="text-light">A quick preview of my interests </p>
+                        <ul class="text-light">
+                            <li>Video Games</li>
+                            <li>Fish / Aquatic Animals</li>
+                            <li>Computers</li>
+                        </ul>
+                        <div class="button-container">
+                            <a href="interests.html"><h1>Interests</h1></a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="actBox">
-                <div class="actBorder"></div>
-                <a href="activities.html"><h1 class="actButton">Activities</h1></a>
-            </div>
-
-        </div>
-
-        <div class="photo">
-            <img src="images/me.jpeg" alt="photo">
+                <div id="activities-button" class="box viridian-green">
+                    <div>
+                        <p class="text-light">A quick preview of my activities</p>
+                        <ul class="text-light">
+                            <li>Paintball</li>
+                            <li>Puzzles</li>
+                            <li>Fishing</li>
+                        </ul>
+                        <div class="button-container">
+                            <a href="activities.html"><h1>Activities</h1></a>
+                        </div>
+                    </div>
+                </div>
+            
         </div>
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <div></div>
+        <div><h6> &copy;copyright 2022. All rights reserved</h6></div>
+        <div id="social">
+            <ul>
+                <li><a href="" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
